@@ -37,4 +37,3 @@ grb_git_prompt() {
 
 
 PS1="${BRIGHT_GREEN} (${CYAN}\d ${YELLOW}\@${BRIGHT_GREEN}) ${BRIGHT_CYAN}\w${NORMAL}\$(grb_git_prompt) λ "
-# PS1="what? "
