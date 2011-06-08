@@ -1,11 +1,7 @@
+. ~/bin/git-completion.bash
+
 . ~/bin/bash_colors.sh
 
-# rvm! 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
-
-# colors!
-alias ls='ls -G'
-alias ll='ls -lG'
 export GREP_OPTIONS="--color"
 
 # prompt!
@@ -36,4 +32,4 @@ grb_git_prompt() {
 }
 
 
-PS1="${BRIGHT_GREEN} (${CYAN}\d ${YELLOW}\@${BRIGHT_GREEN}) ${BRIGHT_CYAN}\w${NORMAL}\$(grb_git_prompt) λ "
+PS1="${BRIGHT_GREEN} (${CYAN}\d ${YELLOW}\@${BRIGHT_GREEN}) ${BRIGHT_CYAN}\w${NORMAL}\$(grb_git_prompt)\n λ "
