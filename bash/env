@@ -1,4 +1,4 @@
-export PATH=$PATH:/usr/local/mysql/bin:~/bin
+export PATH=$PATH:/usr/local/mysql/bin:/usr/local/sbin:~/bin
 
 # z!
 . ~/dotfiles/bin/z/z.sh
