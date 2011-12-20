@@ -6,4 +6,4 @@ export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH:~/bin
 
 # rvm! 
 # [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
-[[ -s "/Users/philcrissman/.rvm/scripts/rvm" ]] && source "/Users/philcrissman/.rvm/scripts/rvm"
+[[ -s "/Users/pcrissman/.rvm/scripts/rvm" ]] && source "/Users/pcrissman/.rvm/scripts/rvm"  # This loads RVM into a shell session.
