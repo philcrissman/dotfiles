@@ -7,3 +7,4 @@ bin/rdoc
 bin/ruby
 bin/ri
 bin/testrb
+vim/.net*

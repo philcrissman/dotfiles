@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/philcrissman/Projects/slantwise/archivers_net/app/views/admin/articles'
-let g:netrw_dirhist_2='/Users/philcrissman/Projects/slantwise/archivers_net/app/views/admin/article_folders'
-let g:netrw_dirhist_3='/Users/philcrissman/Projects/slantwise/archivers_net/app/models'
-let g:netrw_dirhist_4='/Users/philcrissman/Projects/slantwise/gsn2/app/views/layouts'
-let g:netrw_dirhist_5='/Users/philcrissman/Edu/octopress'

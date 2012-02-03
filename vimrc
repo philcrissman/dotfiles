@@ -13,6 +13,9 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
-set autoindent
-
 filetype plugin indent on
+if has("autocmd")
+  filetype plugin indent on
+else
+  set autoindent
+endif
