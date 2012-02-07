@@ -1,4 +1,10 @@
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect() 
+
+set nocompatible
+
+set number
+set ruler
+
 syntax enable 
 set background=dark 
 colorscheme solarized
@@ -6,8 +12,8 @@ colorscheme solarized
 set expandtab
 set tabstop=2
 set shiftwidth=2
-set number
 
+filetype plugin indent on
 if has("autocmd")
   filetype plugin indent on
 else

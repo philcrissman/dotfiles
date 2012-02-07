@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/pcrissman/Documents/Parallels/WIN_SHARED/Rails/therese/app/views/campaigns'
-let g:netrw_dirhist_2='/Users/pcrissman/Documents/Parallels/WIN_SHARED/Rails/siesse_trunk/app/models'
-let g:netrw_dirhist_3='/Users/pcrissman/Documents/Parallels/WIN_SHARED/Rails/siesse_trunk/test/functional'
-let g:netrw_dirhist_4='/Users/pcrissman/Documents/Parallels/WIN_SHARED/Rails/siesse_trunk/.svn/pristine/54'
-let g:netrw_dirhist_5='/Users/pcrissman/Documents/Parallels/WIN_SHARED/Rails/siesse_trunk/lib/common/model_mixins'

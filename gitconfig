@@ -27,3 +27,6 @@
   
 [format]
   pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold cyan)<%an>%Creset
+[github]
+	user = philcrissman
+	token = 61960e7e6a01659a132dcf75d90ca637
