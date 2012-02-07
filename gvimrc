@@ -9,3 +9,5 @@ set shiftwidth=2
 set number
 set guifont=Anonymous\ Pro:h18
 set fullscreen
+
+set cursorline

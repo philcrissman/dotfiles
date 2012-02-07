@@ -13,3 +13,5 @@ if has("autocmd")
 else
   set autoindent
 endif
+
+set cursorline
