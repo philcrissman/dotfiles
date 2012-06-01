@@ -12,3 +12,4 @@ set fullscreen
 
 set cursorline
 
+autocmd BufWritePost *.coffee silent CoffeeMake! -b | cwindow
