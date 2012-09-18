@@ -1,6 +1,9 @@
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH:~/bin
 
 export DYLD_LIBRARY_PATH=/usr/local/oracle/instantclient_10_2:$DYLD_LIBRARY_PATH
+export ORACLE_HOME=/usr/local/oracle/instantclient_10_2
+export SQLPATH=$ORACLE_HOME
+export NLS_LANG="AMERICAN_AMERICA.UTF8"
 
 # z!
 . ~/dotfiles/bin/z/z.sh
