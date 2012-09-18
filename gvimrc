@@ -7,7 +7,9 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 set number
-set guifont=Anonymous\ Pro:h18
+set guifont=DejaVu\ Sans\ Mono:h18
 set fullscreen
 
 set cursorline
+
+autocmd BufWritePost *.coffee silent CoffeeMake! -b | cwindow
