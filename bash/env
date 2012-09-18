@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH:~/bin
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH:$HOME/.rvm/bin:~/bin
 
 export DYLD_LIBRARY_PATH=/usr/local/oracle/instantclient_10_2:$DYLD_LIBRARY_PATH
 
