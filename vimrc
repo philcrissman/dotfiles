@@ -23,3 +23,5 @@ endif
 set cursorline
 
 autocmd BufWritePost *.coffee silent CoffeeMake! -b | cwindow
+
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
