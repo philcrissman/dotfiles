@@ -20,6 +20,8 @@ else
   set autoindent
 endif
 
+hi CursorLine cterm=none ctermbg=white
+
 set cursorline
 
 autocmd BufWritePost *.coffee silent CoffeeMake! -b | cwindow
