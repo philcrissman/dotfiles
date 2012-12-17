@@ -6,6 +6,7 @@ set number
 set ruler
 
 set t_Co=256
+let g:solarized_termcolors=256
 syntax enable 
 set background=dark 
 colorscheme solarized
@@ -21,7 +22,7 @@ else
   set autoindent
 endif
 
-hi CursorLine cterm=none ctermbg=white
+hi CursorLine cterm=none ctermbg=black
 
 set cursorline
 
