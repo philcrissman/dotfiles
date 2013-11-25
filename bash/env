@@ -10,7 +10,6 @@ export NLS_LANG="AMERICAN_AMERICA.UTF8"
 
 
 # rvm! 
-# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 export RUBY_HEAP_MIN_SLOTS=1000000
