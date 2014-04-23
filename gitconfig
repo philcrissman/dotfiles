@@ -1,6 +1,6 @@
 [user]
 	name = Phil Crissman
-	email = phil.crissman@aonhewitt.com
+	email = phil.crissman@gmail.com
 [color]
   ui = auto
 [alias]
@@ -34,3 +34,5 @@
 [github]
 	user = philcrissman
 	token = 61960e7e6a01659a132dcf75d90ca637
+[core]
+	excludesfile = /Users/phil/.gitignore_global

@@ -1,5 +1,11 @@
 alias ls='ls -G'
 alias ll='ls -lG'
 
+alias mkdir='mkdir -p'
+mkdir-and-cd(){ 
+  mkdir $1 && cd $1 
+}
+alias mcd="mkdir-and-cd"
+
 alias h=history
 alias be='bundle exec'
