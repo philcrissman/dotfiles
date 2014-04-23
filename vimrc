@@ -1,6 +1,23 @@
-call pathogen#infect() 
-
 set nocompatible
+
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-rails.git'
+Bundle 'micha/vim-colors-solarized'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'tsaleh/vim-align'
+Bundle 'ervandew/supertab'
+Bundle 'wincent/Command-T'
+Bundle 'mileszs/ack.vim'
+Bundle 'tpope/vim-commentary'
 
 set number
 set ruler
