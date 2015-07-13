@@ -1,13 +1,8 @@
 . ~/dotfiles/bash/env
 . ~/dotfiles/bash/config
 . ~/dotfiles/bash/aliases
-
-eval "$(rbenv init -)"
-
-
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
+. /usr/local/share/chruby/chruby.sh
+. /usr/local/share/chruby/auto.sh
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+#export PATH="/usr/local/heroku/bin:$PATH"
