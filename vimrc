@@ -2,22 +2,25 @@ set nocompatible
 
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-rails.git'
-Bundle 'micha/vim-colors-solarized'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'tsaleh/vim-align'
-Bundle 'ervandew/supertab'
-Bundle 'wincent/Command-T'
-Bundle 'mileszs/ack.vim'
-Bundle 'tpope/vim-commentary'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rails.git'
+Plugin 'micha/vim-colors-solarized'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tsaleh/vim-align'
+Plugin 'ervandew/supertab'
+Plugin 'wincent/Command-T'
+Plugin 'mileszs/ack.vim'
+Plugin 'tpope/vim-commentary'
+
+call vundle#end()
+filetype plugin indent on
 
 set number
 set ruler
