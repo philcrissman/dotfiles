@@ -18,6 +18,7 @@ Plugin 'ervandew/supertab'
 Plugin 'wincent/Command-T'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-commentary'
+Plugin 'janko-m/vim-test'
 
 call vundle#end()
 filetype plugin indent on
@@ -48,4 +49,4 @@ set cursorline
 
 autocmd BufWritePost *.coffee silent CoffeeMake! -b | cwindow
 
-let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+let g:ackprg="ag --vimgrep"

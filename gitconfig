@@ -1,6 +1,6 @@
 [user]
 	name = Phil Crissman
-	email = phil.crissman@gmail.com
+	email = phcrissm@microsoft.com
 [color]
   ui = auto
 [alias]
@@ -35,4 +35,6 @@
 	user = philcrissman
 	token = 61960e7e6a01659a132dcf75d90ca637
 [core]
-	excludesfile = /Users/phil/.gitignore_global
+	excludesfile = /Users/philcrissman/.gitignore_global
+[commit]
+  template = ~/.gitmessage
