@@ -19,6 +19,10 @@ Plugin 'wincent/Command-T'
 Plugin 'mileszs/ack.vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'janko-m/vim-test'
+Plugin 'lambdatoast/elm.vim'
+Plugin 'bling/vim-airline'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'mhinz/vim-signify'
 
 call vundle#end()
 filetype plugin indent on
@@ -49,4 +53,9 @@ set cursorline
 
 autocmd BufWritePost *.coffee silent CoffeeMake! -b | cwindow
 
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h16
 let g:ackprg="ag --vimgrep"
+let g:airline_powerline_fonts = 1
+let g:airline_theme='light'
+
+set laststatus=2
