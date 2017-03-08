@@ -23,6 +23,8 @@ Plugin 'lambdatoast/elm.vim'
 Plugin 'bling/vim-airline'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'mhinz/vim-signify'
+Plugin 'koron/minimap-vim'
+Plugin 'tpope/vim-projectionist'
 
 call vundle#end()
 filetype plugin indent on

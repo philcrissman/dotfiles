@@ -1,6 +1,7 @@
 . ~/dotfiles/bash/env
 . ~/dotfiles/bash/config
 . ~/dotfiles/bash/aliases
+. ~/.bin/tmuxinator.bash
 . /usr/local/share/chruby/chruby.sh
 . /usr/local/share/chruby/auto.sh
 . ~/.jumphost
