@@ -6,7 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle
-" required! 
+" required!
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'tpope/vim-fugitive'
@@ -22,6 +22,7 @@ Plugin 'janko-m/vim-test'
 Plugin 'lambdatoast/elm.vim'
 Plugin 'bling/vim-airline'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mhinz/vim-signify'
 Plugin 'joukevandermaas/vim-ember-hbs.git'
 
@@ -33,9 +34,10 @@ set ruler
 
 set t_Co=256
 let g:solarized_termcolors=256
-syntax enable 
-set background=dark 
-colorscheme solarized
+syntax enable
+set background=dark
+" colorscheme solarized
+colorscheme vividchalk
 
 set expandtab
 set tabstop=2
@@ -54,9 +56,10 @@ set cursorline
 
 autocmd BufWritePost *.coffee silent CoffeeMake! -b | cwindow
 
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h16
+"set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h16
+set guifont=Fira\ Code:h16
 let g:ackprg="ag --vimgrep"
 let g:airline_powerline_fonts = 1
-let g:airline_theme='light'
+let g:airline_theme='murmur'
 
 set laststatus=2

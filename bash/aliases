@@ -9,3 +9,5 @@ alias mcd="mkdir-and-cd"
 
 alias h=history
 alias be='bundle exec'
+
+alias sb='source ~/.bash_profile'

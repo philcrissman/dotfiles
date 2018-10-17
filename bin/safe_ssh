@@ -1,0 +1,10 @@
+#!/bin/bash
+
+ip=`echo $1 | cut -d"@" -f2`
+match=`cat ~/.server_colors | grep $ip | wc -l`
+if [ $match -gt 0 ]
+then
+    color=`cat ~/.server_colors | grep $ip | cut -f2 -d","`
+    osascript ~/bin/change_terminal_color.scpt "$color" 2>/dev/null
+fi
+/usr/bin/ssh $@

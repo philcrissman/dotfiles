@@ -12,3 +12,10 @@ export TORQUEBOX_HOME=/Users/philcrissman/Workspace/yammer/torque/torquebox-3.1.
 export JBOSS_HOME=$TORQUEBOX_HOME/jboss
 export JRUBY_HOME=$TORQUEBOX_HOME/jruby
 # export PATH=$JRUBY_HOME/bin:$PATH
+
+export PMD_HOME=~/pmd-bin-6.1.0
+export PATH=~/.rakudobrew/bin:$PATH
+
+
+# for hacklab / teamlabs
+alias sshlab='ssh -A -tq ubuntu@jumphost-int.integration.yammer.com ssh $@'
