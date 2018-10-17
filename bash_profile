@@ -1,5 +1,5 @@
 source ~/.bashrc
-source ~/.bin/tmuxinator.bash
+source ~/bin/tmuxinator.bash
 
 export PATH=$PATH:/Users/philcrissman/dotfiles/bin
 
