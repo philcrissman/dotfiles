@@ -1,0 +1,11 @@
+############
+# jumphost #
+############
+function prod_ssh()
+{
+  ssh -A -t pcrissman@jumphost.dm2.yammer.com ssh -A $*
+}
+function prod_console()
+{
+  prod_ssh $1 -t sudo -iu wgadmin bundle exec rails c
+}
